@@ -1,0 +1,164 @@
+{
+  "id": "f4-application",
+  "visaStatus": "F-4",
+  "procedure": "EXTEND",
+  "title": {
+    "ru": "Виза F-4 (Этнический кореец / 고려인)",
+    "en": "F-4 Visa (Overseas Korean / 고려인)"
+  },
+  "documents": [
+    {
+      "id": "passport",
+      "label": {
+        "ru": "Заграничный паспорт (оригинал + копия)",
+        "en": "Passport (original + copy)"
+      },
+      "detail": {
+        "how": {
+          "ru": "Паспорт уже есть у вас. Убедитесь что срок действия не менее 6 месяцев. Сделайте 2–3 копии.",
+          "en": "Your passport is already with you. Ensure validity of at least 6 months. Make 2–3 copies."
+        },
+        "where": {
+          "ru": "Уже есть у вас.",
+          "en": "Already with you."
+        }
+      }
+    },
+    {
+      "id": "photo",
+      "label": {
+        "ru": "Фотография 3×4 см (белый фон)",
+        "en": "3×4 cm photo (white background)"
+      },
+      "detail": {
+        "how": {
+          "ru": "Сфотографироваться в фотостудии. 3×4 см, цветное, белый фон, без очков.",
+          "en": "Get a photo at a studio. 3×4 cm, color, white background, no glasses."
+        },
+        "where": {
+          "ru": "Ближайшая фотостудия (사진관).",
+          "en": "Nearest photo studio (사진관)."
+        },
+        "hoursType": "photo",
+        "hours": {
+          "ru": "Обычно ежедневно 10:00–21:00.",
+          "en": "Usually daily 10:00–21:00."
+        },
+        "mapQuery": "여권사진 사진관",
+        "koreanPhrase": {
+          "ru": "비자 사진 한 장 주세요. 3×4 사이즈요.\n(пиджа саджин хан джан чусэё)\n↳ Одно фото для визы. Размер 3×4.",
+          "en": "비자 사진 한 장 주세요. 3×4 사이즈요.\n(bija sajin han jang juseyo)\n↳ One visa photo please. Size 3×4."
+        }
+      }
+    },
+    {
+      "id": "korean-origin",
+      "label": {
+        "ru": "Документы, подтверждающие корейское происхождение: семейная книга (호적), свидетельства о рождении предков или справки из архивов страны СНГ",
+        "en": "Documents proving Korean origin: family registry (호적), ancestors' birth certificates or archive records from CIS country"
+      },
+      "detail": {
+        "how": {
+          "ru": "Запросить в государственных архивах вашей страны: свидетельство о рождении деда/прадеда-корейца, семейная книга (호적) или исторические документы, подтверждающие этническое корейское происхождение. Все документы нужно перевести на корейский язык у сертифицированного переводчика.",
+          "en": "Request from your country's state archives: birth certificate of Korean grandfather/great-grandfather, family register (호적) or historical documents proving ethnic Korean origin. All documents must be translated into Korean by a certified translator."
+        },
+        "where": {
+          "ru": "Государственные архивы вашей страны, ЗАГС или консульство Кореи (для уточнения требований).",
+          "en": "State archives of your country, civil registry office, or Korean consulate (to clarify requirements)."
+        },
+        "tip": {
+          "ru": "Сложная часть — собрать документы цепочки от вас до корейского предка. Начните с запроса справок в ЗАГСе по месту рождения деда. Консульство Кореи поможет уточнить требования.",
+          "en": "The hard part is assembling a chain of documents from you to your Korean ancestor. Start by requesting records from the civil registry office at your grandfather's birthplace. The Korean consulate can help clarify requirements."
+        }
+      }
+    },
+    {
+      "id": "family-tree",
+      "label": {
+        "ru": "Генеалогическое дерево / родословная (при необходимости нотариально заверенный перевод)",
+        "en": "Family tree / genealogy documents (notarized translation may be required)"
+      },
+      "detail": {
+        "how": {
+          "ru": "Составить генеалогическое дерево самостоятельно на основе документов. Указать полное имя, дату рождения и место рождения каждого члена семьи. При необходимости — нотариально заверить и перевести на корейский.",
+          "en": "Compile the family tree yourself based on documents. Include full name, date and place of birth for each family member. If required — have it notarized and translated into Korean."
+        },
+        "where": {
+          "ru": "Составляется самостоятельно. Нотариус или переводчик при необходимости.",
+          "en": "Compiled by yourself. Notary or translator if required."
+        },
+        "tip": {
+          "ru": "Иммиграционные офисы иногда запрашивают этот документ дополнительно — уточните при консультации в иммиграционном офисе или у консультанта.",
+          "en": "Immigration offices sometimes request this additionally — confirm when consulting the immigration office or an advisor."
+        }
+      }
+    },
+    {
+      "id": "application-form",
+      "label": {
+        "ru": "Заявление на визу F-4 (사증발급신청서) — заполнить в консульстве или иммиграционном офисе",
+        "en": "F-4 visa application form (사증발급신청서) — fill out at consulate or immigration office"
+      },
+      "detail": {
+        "how": {
+          "ru": "Скачать форму с сайта HiKorea или получить на месте в иммиграционном офисе / консульстве. Заполнить на корейском или английском языке.",
+          "en": "Download the form from HiKorea or pick it up at the immigration office / consulate. Fill out in Korean or English."
+        },
+        "where": {
+          "ru": "На сайте HiKorea или на стойке иммиграционного офиса (출입국외국인청).",
+          "en": "On the HiKorea website or at the immigration office counter (출입국외국인청)."
+        },
+        "hours": {
+          "ru": "Иммиграционный офис: Пн–Пт 09:00–18:00, перерыв 12:00–13:00.",
+          "en": "Immigration office: Mon–Fri 09:00–18:00, lunch 12:00–13:00."
+        },
+        "hoursType": "immigration",
+        "mapQuery": "출입국외국인청",
+        "koreanPhrase": {
+          "ru": "F-4 비자 신청서 양식 받을 수 있을까요?\n(Ф-4 пиджа синчхонсо янсик падырь су иссыль ккаё?)\n↳ Можно получить бланк заявления на визу F-4?",
+          "en": "F-4 비자 신청서 양식 받을 수 있을까요?\n(F-4 bija sincheongseo yangsik badeul su isseulkkayo?)\n↳ Can I get the F-4 visa application form?"
+        },
+        "onlineUrl": "https://www.hikorea.go.kr"
+      }
+    },
+    {
+      "id": "fee-receipt",
+      "label": {
+        "ru": "Квитанция об оплате консульского сбора (уточнить в консульстве Кореи)",
+        "en": "Consular fee receipt (check with the Korean consulate)"
+      },
+      "detail": {
+        "how": {
+          "ru": "Оплатить сбор в банке по реквизитам консульства / иммиграционного офиса или онлайн через HiKorea.",
+          "en": "Pay the fee at a bank using the consulate / immigration office details, or online via HiKorea."
+        },
+        "where": {
+          "ru": "Банк (국민은행, 우리은행) или онлайн через HiKorea.",
+          "en": "Bank (국민은행, 우리은행) or online via HiKorea."
+        },
+        "hoursType": "bank",
+        "hours": {
+          "ru": "Банк: Пн–Пт 09:00–16:00. Онлайн — круглосуточно.",
+          "en": "Bank: Mon–Fri 09:00–16:00. Online — 24/7."
+        },
+        "mapQuery": "국민은행",
+        "koreanPhrase": {
+          "ru": "비자 수수료 납부하러 왔어요.\n(пиджа сусурё намбухарео вассэё)\n↳ Я пришёл оплатить визовый сбор.",
+          "en": "비자 수수료 납부하러 왔어요.\n(bija susuryo nambuharyeo wasseoyo)\n↳ I came to pay the visa fee."
+        },
+        "onlineUrl": "https://www.hikorea.go.kr"
+      }
+    }
+  ],
+  "when": {
+    "ru": "Первичная виза F-4 оформляется в консульстве Кореи на родине до въезда. После въезда и регистрации ARC — продление в иммиграционном офисе Кореи. Виза даёт право жить и работать в Корее без ограничений по роду деятельности.",
+    "en": "Initial F-4 visa is obtained at the Korean consulate in your home country before entry. After entering and registering ARC — extend at the Korean immigration office. The visa allows living and working in Korea without occupational restrictions."
+  },
+  "fee": {
+    "ru": "Консульский сбор: уточнить в консульстве. Продление в Корее: 60 000–130 000 ₩",
+    "en": "Consular fee: check with consulate. Extension in Korea: 60,000–130,000 KRW"
+  },
+  "whereUrl": "https://www.hikorea.go.kr",
+  "source": "HiKorea / Korea Consulate",
+  "lastUpdated": "2024-01-01"
+}

@@ -1,0 +1,195 @@
+{
+  "id": "e7-application",
+  "visaStatus": "D-10",
+  "procedure": "CHANGE_STATUS",
+  "title": {
+    "ru": "Смена статуса D-10 → E-7 (рабочая)",
+    "en": "Status Change D-10 → E-7 (Skilled Worker)"
+  },
+  "documents": [
+    {
+      "id": "passport",
+      "label": {
+        "ru": "Заграничный паспорт (оригинал + копия)",
+        "en": "Passport (original + copy)"
+      },
+      "detail": {
+        "how": {
+          "ru": "Паспорт уже есть у вас. Убедитесь что срок действия не менее 6 месяцев. Сделайте копию страниц с фото и визой.",
+          "en": "Your passport is already with you. Ensure validity of at least 6 months. Copy the photo and visa pages."
+        },
+        "where": {
+          "ru": "Уже есть у вас.",
+          "en": "Already with you."
+        }
+      }
+    },
+    {
+      "id": "arc",
+      "label": {
+        "ru": "Карта иностранца ARC",
+        "en": "Alien Registration Card (ARC)"
+      },
+      "detail": {
+        "how": {
+          "ru": "ARC уже есть у вас. Возьмите оригинал.",
+          "en": "Your ARC is already with you. Bring the original."
+        },
+        "where": {
+          "ru": "Уже есть у вас.",
+          "en": "Already with you."
+        }
+      }
+    },
+    {
+      "id": "employment-contract",
+      "label": {
+        "ru": "Трудовой договор с корейским работодателем (на корейском языке, подписанный обеими сторонами)",
+        "en": "Employment contract with Korean employer (in Korean, signed by both parties)"
+      },
+      "detail": {
+        "how": {
+          "ru": "Попросите HR-отдел или менеджера работодателя подготовить трудовой договор (근로계약서). Договор должен быть на корейском языке и подписан с обеих сторон. Обычно работодатель готовит его самостоятельно.",
+          "en": "Ask the employer's HR department or manager to prepare an employment contract (근로계약서). It must be in Korean and signed by both parties. Usually the employer prepares it independently."
+        },
+        "where": {
+          "ru": "У вашего работодателя (HR-отдел, менеджер).",
+          "en": "From your employer (HR department, manager)."
+        },
+        "koreanPhrase": {
+          "ru": "E-7 비자 신청을 위해 근로계약서가 필요해요.\n(Е-7 пиджа синчхонын вихэ кыллогёяксога пирёхэё)\n↳ Для оформления визы E-7 мне нужен трудовой договор.",
+          "en": "E-7 비자 신청을 위해 근로계약서가 필요해요.\n(E-7 bija sincheongeul wihae geullо gyeongnyeokseo-ga piryohaeyo)\n↳ I need an employment contract to apply for an E-7 visa."
+        },
+        "tip": {
+          "ru": "Работодатель должен предварительно получить разрешение от Министерства занятости (표준근로계약서). Уточните это у HR до подписания.",
+          "en": "The employer must first obtain approval from the Ministry of Employment (표준근로계약서). Confirm this with HR before signing."
+        }
+      }
+    },
+    {
+      "id": "company-docs",
+      "label": {
+        "ru": "Документы компании-работодателя: свидетельство о регистрации (사업자등록증) + финансовая отчётность",
+        "en": "Employer documents: business registration certificate (사업자등록증) + financial statements"
+      },
+      "detail": {
+        "how": {
+          "ru": "Эти документы предоставляет работодатель. Запросите их в HR-отделе: свидетельство о регистрации компании (사업자등록증) и годовую финансовую отчётность.",
+          "en": "These documents are provided by the employer. Request them from HR: business registration certificate (사업자등록증) and annual financial statements."
+        },
+        "where": {
+          "ru": "У вашего работодателя (HR-отдел, бухгалтерия).",
+          "en": "From your employer (HR, accounting department)."
+        },
+        "tip": {
+          "ru": "Если в компании нет HR — попросите директора напрямую. Документы обязан подготовить работодатель, а не вы.",
+          "en": "If the company has no HR — ask the director directly. The employer is responsible for preparing these documents, not you."
+        }
+      }
+    },
+    {
+      "id": "degree",
+      "label": {
+        "ru": "Диплом о высшем образовании (с апостилем) или документ об эквивалентном опыте работы",
+        "en": "University diploma (with apostille) or proof of equivalent work experience"
+      },
+      "detail": {
+        "how": {
+          "ru": "Если диплом получен за рубежом — нужен апостиль и нотариально заверенный перевод на корейский. Если диплом корейского университета — копия без апостиля. Подтверждение опыта работы — справки с предыдущих мест работы.",
+          "en": "If the diploma is from abroad — apostille and notarized Korean translation are required. If from a Korean university — just a copy, no apostille. Work experience confirmation — letters from previous employers."
+        },
+        "where": {
+          "ru": "Диплом — уже есть у вас. Апостиль ставится в стране выдачи диплома. Перевод — у сертифицированного переводчика в Корее.",
+          "en": "Diploma — already with you. Apostille is obtained in the country where the diploma was issued. Translation — from a certified translator in Korea."
+        },
+        "tip": {
+          "ru": "Диплом корейского университета (D-2 выпускник) принимают без апостиля. Уточните у иммиграционного офиса.",
+          "en": "A Korean university diploma (D-2 graduate) is accepted without an apostille. Confirm with the immigration office."
+        }
+      }
+    },
+    {
+      "id": "recommendation",
+      "label": {
+        "ru": "Рекомендательное письмо от работодателя (형식 없음, в произвольной форме)",
+        "en": "Recommendation letter from employer (free form)"
+      },
+      "detail": {
+        "how": {
+          "ru": "Попросите работодателя написать рекомендательное письмо в произвольной форме на фирменном бланке. В письме должны быть: имя кандидата, должность, зарплата, дата начала работы, подпись директора.",
+          "en": "Ask the employer to write a recommendation letter in free form on company letterhead. It should include: candidate name, position, salary, start date, director's signature."
+        },
+        "where": {
+          "ru": "У вашего работодателя.",
+          "en": "From your employer."
+        }
+      }
+    },
+    {
+      "id": "photo",
+      "label": {
+        "ru": "Фотография 3×4 см (белый фон)",
+        "en": "3×4 cm photo (white background)"
+      },
+      "detail": {
+        "how": {
+          "ru": "Сфотографироваться в фотостудии. 3×4 см, цветное, белый фон, без очков.",
+          "en": "Get a photo at a studio. 3×4 cm, color, white background, no glasses."
+        },
+        "where": {
+          "ru": "Ближайшая фотостудия (사진관).",
+          "en": "Nearest photo studio (사진관)."
+        },
+        "hoursType": "photo",
+        "hours": {
+          "ru": "Обычно ежедневно 10:00–21:00.",
+          "en": "Usually daily 10:00–21:00."
+        },
+        "mapQuery": "여권사진 사진관",
+        "koreanPhrase": {
+          "ru": "비자 사진 한 장 주세요. 3×4 사이즈요.\n(пиджа саджин хан джан чусэё)\n↳ Одно фото для визы. Размер 3×4.",
+          "en": "비자 사진 한 장 주세요. 3×4 사이즈요.\n(bija sajin han jang juseyo)\n↳ One visa photo please. Size 3×4."
+        }
+      }
+    },
+    {
+      "id": "fee-receipt",
+      "label": {
+        "ru": "Квитанция об оплате пошлины (130 000 ₩)",
+        "en": "Fee payment receipt (130,000 KRW)"
+      },
+      "detail": {
+        "how": {
+          "ru": "Оплатить 130 000 ₩ в банке или онлайн через HiKorea.",
+          "en": "Pay 130,000 KRW at a bank or online via HiKorea."
+        },
+        "where": {
+          "ru": "Ближайшее отделение 국민은행 или онлайн.",
+          "en": "Nearest 국민은행 or online."
+        },
+        "hoursType": "bank",
+        "hours": {
+          "ru": "Банк: Пн–Пт 09:00–16:00.",
+          "en": "Bank: Mon–Fri 09:00–16:00."
+        },
+        "mapQuery": "국민은행",
+        "koreanPhrase": {
+          "ru": "출입국 비자 수수료 납부하러 왔어요. 130,000원이요.\n(чхулипкук пиджа сусурё намбухарео вассэё)\n↳ Я пришёл оплатить визовый сбор. 130 000 вон.",
+          "en": "출입국 비자 수수료 납부하러 왔어요. 130,000원이요.\n(chulipguk bija susuryo nambuharyeo wasseoyo)\n↳ I came to pay the visa fee. 130,000 KRW."
+        },
+        "onlineUrl": "https://www.hikorea.go.kr"
+      }
+    }
+  ],
+  "when": {
+    "ru": "Подать до истечения визы D-10. Работодатель должен получить подтверждение от Министерства занятости (표준계약서). Рассмотрение занимает 2–4 недели. E-7 выдаётся на срок трудового договора (максимум 3 года, с продлением).",
+    "en": "Apply before your D-10 visa expires. The employer must obtain approval from the Ministry of Employment (표준계약서). Processing takes 2–4 weeks. E-7 is issued for the contract period (max 3 years, renewable)."
+  },
+  "fee": {
+    "ru": "130 000 KRW",
+    "en": "130,000 KRW"
+  },
+  "whereUrl": "https://www.hikorea.go.kr",
+  "source": "HiKorea",
+  "lastUpdated": "2024-01-01"
+}

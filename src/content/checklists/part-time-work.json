@@ -1,0 +1,129 @@
+{
+  "id": "part-time-work",
+  "visaStatus": "D-2",
+  "procedure": "PART_TIME_WORK",
+  "title": {
+    "ru": "Разрешение на подработку",
+    "en": "Part-time Work Permit"
+  },
+  "documents": [
+    {
+      "id": "passport",
+      "label": {
+        "ru": "Заграничный паспорт (оригинал + копия)",
+        "en": "Passport (original + copy)"
+      },
+      "detail": {
+        "how": {
+          "ru": "Паспорт уже есть у вас. Приложите копию страницы с фото.",
+          "en": "Your passport is already with you. Include a copy of the photo page."
+        },
+        "where": {
+          "ru": "Уже есть у вас.",
+          "en": "Already with you."
+        }
+      }
+    },
+    {
+      "id": "arc",
+      "label": {
+        "ru": "Карта иностранца ARC",
+        "en": "Alien Registration Card (ARC)"
+      },
+      "detail": {
+        "how": {
+          "ru": "ARC уже есть у вас. Возьмите оригинал и сделайте копию.",
+          "en": "Your ARC is already with you. Bring the original and make a copy."
+        },
+        "where": {
+          "ru": "Уже есть у вас.",
+          "en": "Already with you."
+        }
+      }
+    },
+    {
+      "id": "enrollment-cert",
+      "label": {
+        "ru": "Справка о зачислении из университета / языковой школы (재학증명서)",
+        "en": "Certificate of enrollment from university/language school"
+      },
+      "detail": {
+        "how": {
+          "ru": "Получить в деканате (교학처) или студенческом офисе. Обычно выдаётся сразу.",
+          "en": "Obtain from the academic affairs office (교학처) or student office. Usually issued immediately."
+        },
+        "where": {
+          "ru": "Деканат вашего университета или языковой школы.",
+          "en": "Your university or language school's academic office."
+        },
+        "hours": {
+          "ru": "Пн–Пт: 09:00–18:00, перерыв 12:00–13:00.",
+          "en": "Mon–Fri: 09:00–18:00, lunch 12:00–13:00."
+        },
+        "hoursType": "school",
+        "koreanPhrase": {
+          "ru": "재학증명서 한 부 주세요. 시간제 취업 신청 때문이에요.\n(чэхак чынмёнсо хан бу чусэё. сиганджэ чхвиоп синчхон ттэмуниэё)\n↳ Дайте справку о зачислении. Для заявления на разрешение подработки.",
+          "en": "재학증명서 한 부 주세요. 시간제 취업 신청 때문이에요.\n(jaehak jeungmyeongseo han bu juseyo. siganје chwieop sinchеong ttaemun-ieyo)\n↳ Please give me an enrollment certificate. It is for a part-time work permit application."
+        }
+      }
+    },
+    {
+      "id": "application-form",
+      "label": {
+        "ru": "Интегрированная форма заявки (통합신청서) — скачать на HiKorea",
+        "en": "Integrated application form (통합신청서) — download from HiKorea"
+      },
+      "detail": {
+        "how": {
+          "ru": "Скачать форму с HiKorea (통합신청서), заполнить от руки или онлайн. Можно подать всё онлайн через HiKorea без визита в офис.",
+          "en": "Download the form from HiKorea (통합신청서), fill it out by hand or online. You can submit everything online via HiKorea without an office visit."
+        },
+        "where": {
+          "ru": "Онлайн на HiKorea или в иммиграционном офисе.",
+          "en": "Online via HiKorea or at the immigration office."
+        },
+        "onlineUrl": "https://www.hikorea.go.kr",
+        "tip": {
+          "ru": "Онлайн-подача через HiKorea — самый удобный способ. Не нужно идти в офис.",
+          "en": "Online submission via HiKorea is the most convenient option. No need to visit the office."
+        }
+      }
+    },
+    {
+      "id": "contract",
+      "label": {
+        "ru": "Трудовой договор или письмо от работодателя с указанием места и часов работы",
+        "en": "Employment contract or employer letter specifying workplace and hours"
+      },
+      "detail": {
+        "how": {
+          "ru": "Попросите работодателя (кафе, ресторан, магазин и т.д.) предоставить трудовой договор (근로계약서) или письмо на фирменном бланке с указанием: название компании, адрес, должность, часы работы.",
+          "en": "Ask your employer (cafe, restaurant, store, etc.) to provide an employment contract (근로계약서) or a letter on company letterhead specifying: company name, address, position, working hours."
+        },
+        "where": {
+          "ru": "У вашего работодателя.",
+          "en": "From your employer."
+        },
+        "koreanPhrase": {
+          "ru": "비자 아르바이트 허가 신청하려고요. 근로계약서나 재직증명서 주실 수 있나요?\n(пиджа арыбаитхы хога синчхонхарёго ё. кыллогёяксо на чэджик чынмёнсо чусиль су иннанё?)\n↳ Я собираюсь подать заявку на разрешение подработки по визе. Можете ли вы дать мне трудовой договор или справку о работе?",
+          "en": "비자 아르바이트 허가 신청하려고요. 근로계약서나 재직증명서 주실 수 있나요?\n(bija areubaiteu hoga sincheongharyeogoyo. geullоgyeongnyeokseo na jaeji jeungmyeongseo jusil su issnayo?)\n↳ I plan to apply for a part-time work permit. Can you provide me with an employment contract or work certificate?"
+        },
+        "tip": {
+          "ru": "Студенты D-2 могут работать не более 20 часов в неделю. D-4 — 15 часов в неделю (уточните актуальный лимит на HiKorea).",
+          "en": "D-2 students can work up to 20 hours per week. D-4 — 15 hours per week (verify the current limit on HiKorea)."
+        }
+      }
+    }
+  ],
+  "when": {
+    "ru": "Подать до начала работы. Разрешение привязано к визе — при продлении нужно переоформить. Можно подать онлайн через HiKorea.",
+    "en": "Apply before starting work. The permit is tied to your visa — reapply when extending. Can be submitted online via HiKorea."
+  },
+  "fee": {
+    "ru": "Бесплатно (무료)",
+    "en": "Free (무료)"
+  },
+  "whereUrl": "https://www.hikorea.go.kr",
+  "source": "HiKorea",
+  "lastUpdated": "2024-01-01"
+}

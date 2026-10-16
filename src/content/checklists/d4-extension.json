@@ -1,0 +1,168 @@
+{
+  "id": "d4-extension",
+  "visaStatus": "D-4",
+  "procedure": "EXTEND",
+  "title": {
+    "ru": "Продление визы D-4",
+    "en": "D-4 Visa Extension"
+  },
+  "documents": [
+    {
+      "id": "passport",
+      "label": {
+        "ru": "Заграничный паспорт (оригинал + копия)",
+        "en": "Passport (original + copy)"
+      },
+      "detail": {
+        "how": {
+          "ru": "Паспорт уже есть у вас. Убедитесь, что срок действия не менее 6 месяцев. Сделайте копии страницы с фото и с визой.",
+          "en": "Your passport is already with you. Make sure it is valid for at least 6 months. Copy the photo page and visa page."
+        },
+        "where": {
+          "ru": "Уже есть у вас.",
+          "en": "Already with you."
+        }
+      }
+    },
+    {
+      "id": "arc",
+      "label": {
+        "ru": "Карта иностранца ARC",
+        "en": "Alien Registration Card (ARC)"
+      },
+      "detail": {
+        "how": {
+          "ru": "ARC уже есть у вас. Возьмите оригинал и сделайте одну копию.",
+          "en": "Your ARC is already with you. Bring the original and make one copy."
+        },
+        "where": {
+          "ru": "Уже есть у вас.",
+          "en": "Already with you."
+        }
+      }
+    },
+    {
+      "id": "enrollment-cert",
+      "label": {
+        "ru": "Справка о зачислении из языковой школы (재학증명서)",
+        "en": "Certificate of enrollment from language school"
+      },
+      "detail": {
+        "how": {
+          "ru": "Обратитесь в офис своей языковой школы или академии (학원). Справку обычно выдают сразу.",
+          "en": "Visit your language school or academy office (학원). The certificate is usually issued immediately."
+        },
+        "where": {
+          "ru": "Офис (사무실) вашей языковой школы / академии.",
+          "en": "Your language school / academy office (사무실)."
+        },
+        "hours": {
+          "ru": "Уточните в своей школе. Обычно Пн–Пт 09:00–18:00.",
+          "en": "Check with your school. Usually Mon–Fri 09:00–18:00."
+        },
+        "hoursType": "school",
+        "koreanPhrase": {
+          "ru": "재학증명서 한 부 주세요. 비자 연장 때문이에요.\n(чэхак чынмёнсо хан бу чусэё. пиджа ёнджан ттэмунэё)\n↳ Дайте, пожалуйста, справку о зачислении. Нужна для продления визы.",
+          "en": "재학증명서 한 부 주세요. 비자 연장 때문이에요.\n(jaehak jeungmyeongseo han bu juseyo. bija yeonjang ttaemun-ieyo)\n↳ Please give me an enrollment certificate. It is for visa extension."
+        }
+      }
+    },
+    {
+      "id": "bank-statement",
+      "label": {
+        "ru": "Выписка из банка (остаток не менее 3 000 000 ₩) или спонсорское письмо",
+        "en": "Bank statement (balance min. 3,000,000 KRW) or sponsor letter"
+      },
+      "detail": {
+        "how": {
+          "ru": "Вариант 1: запросить выписку о состоянии счёта в вашем банке (잔액증명서). Вариант 2: если денег на счёте нет — письмо спонсора (родители) с выпиской с их счёта и переводом.",
+          "en": "Option 1: request a balance certificate (잔액증명서) from your bank. Option 2: if you don't have enough funds — a sponsor letter (from parents) with their bank statement and translation."
+        },
+        "where": {
+          "ru": "Ваш банк (카카오뱅크, 신한은행, 하나은행 и др.). Некоторые банки выдают онлайн.",
+          "en": "Your bank (KakaoBank, Shinhan, Hana, etc.). Some banks allow online requests."
+        },
+        "hours": {
+          "ru": "Банк: Пн–Пт 09:00–16:00. Онлайн — круглосуточно.",
+          "en": "Bank: Mon–Fri 09:00–16:00. Online — 24/7."
+        },
+        "hoursType": "bank",
+        "mapQuery": "은행 ATM",
+        "koreanPhrase": {
+          "ru": "잔액증명서 한 부 발급해 주세요.\n(чаняк чынмёнсо хан бу пальгыпхэ чусэё)\n↳ Пожалуйста, выдайте одну выписку об остатке на счёте.",
+          "en": "잔액증명서 한 부 발급해 주세요.\n(janаek jeungmyeongseo han bu balgeuphae juseyo)\n↳ Please issue one bank balance certificate."
+        },
+        "tip": {
+          "ru": "На выписке должна быть видна сумма остатка на дату не ранее 1 месяца до подачи. Возьмите выписку с печатью банка.",
+          "en": "The statement must show a balance from no more than 1 month before submission. Get the statement with a bank stamp."
+        }
+      }
+    },
+    {
+      "id": "fee-receipt",
+      "label": {
+        "ru": "Квитанция об оплате пошлины",
+        "en": "Fee payment receipt"
+      },
+      "detail": {
+        "how": {
+          "ru": "Оплатить в банке или онлайн через HiKorea. Сумма: 60 000 ₩.",
+          "en": "Pay at a bank or online via HiKorea. Amount: 60,000 KRW."
+        },
+        "where": {
+          "ru": "Ближайшее отделение 국민은행 (Kookmin Bank) или онлайн.",
+          "en": "Nearest 국민은행 (Kookmin Bank) branch or online."
+        },
+        "hours": {
+          "ru": "Банк: Пн–Пт 09:00–16:00. Онлайн — круглосуточно.",
+          "en": "Bank: Mon–Fri 09:00–16:00. Online — 24/7."
+        },
+        "hoursType": "bank",
+        "mapQuery": "국민은행",
+        "koreanPhrase": {
+          "ru": "출입국 비자 수수료 납부하러 왔어요.\n(чхулипкук пиджа сусурё намбухарео вассэё)\n↳ Я пришёл оплатить иммиграционный визовый сбор.",
+          "en": "출입국 비자 수수료 납부하러 왔어요.\n(chulipguk bija susuryo nambuharyeo wasseoyo)\n↳ I came to pay the immigration visa fee."
+        },
+        "onlineUrl": "https://www.hikorea.go.kr"
+      }
+    },
+    {
+      "id": "photo",
+      "label": {
+        "ru": "Фотография 3×4 см (белый фон)",
+        "en": "3×4 cm photo (white background)"
+      },
+      "detail": {
+        "how": {
+          "ru": "Сфотографироваться в фотостудии. Требования: 3×4 см, цветное, белый фон, без очков.",
+          "en": "Get a photo at a photo studio. Requirements: 3×4 cm, color, white background, no glasses."
+        },
+        "where": {
+          "ru": "Любая фотостудия (사진관) рядом с иммиграционным офисом или в торговом центре.",
+          "en": "Any photo studio (사진관) near the immigration office or a shopping mall."
+        },
+        "hours": {
+          "ru": "Обычно ежедневно 10:00–21:00.",
+          "en": "Usually daily 10:00–21:00."
+        },
+        "hoursType": "photo",
+        "mapQuery": "여권사진 사진관",
+        "koreanPhrase": {
+          "ru": "비자 사진 찍으러 왔어요. 3×4 사이즈로 한 장 주세요.\n(пиджа саджин ччикырео вассэё)\n↳ Я пришёл сфотографироваться для визы. Размер 3×4.",
+          "en": "비자 사진 찍으러 왔어요. 3×4 사이즈로 한 장 주세요.\n(bija sajin jjikeureо wasseoyo)\n↳ I came for a visa photo. Size 3×4."
+        }
+      }
+    }
+  ],
+  "when": {
+    "ru": "За 4 месяца до окончания визы, не позже даты истечения. Рекомендуем за 2–3 месяца.",
+    "en": "Up to 4 months before expiry, no later than the expiry date. We recommend 2–3 months in advance."
+  },
+  "fee": {
+    "ru": "60 000 KRW (уточнить на HiKorea — сумма может меняться)",
+    "en": "60,000 KRW (verify on HiKorea — amount may change)"
+  },
+  "whereUrl": "https://www.hikorea.go.kr",
+  "source": "HiKorea",
+  "lastUpdated": "2024-01-01"
+}

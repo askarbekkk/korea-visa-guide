@@ -1,0 +1,110 @@
+{
+  "id": "reentry-permit",
+  "visaStatus": "D-2",
+  "procedure": "REENTRY_PERMIT",
+  "title": {
+    "ru": "Разрешение на повторный въезд",
+    "en": "Re-entry Permit"
+  },
+  "documents": [
+    {
+      "id": "check-exempt",
+      "label": {
+        "ru": "⚠️ Проверьте: если зарегистрированы более 1 года И виза действует ещё более 1 года — разрешение НЕ НУЖНО",
+        "en": "⚠️ Check: if registered 1+ year AND more than 1 year remaining — permit NOT required"
+      },
+      "detail": {
+        "how": {
+          "ru": "Проверьте дату регистрации ARC и дату истечения визы. Если оба условия выполнены — вы автоматически получаете право на повторный въезд и разрешение оформлять не нужно.",
+          "en": "Check your ARC registration date and visa expiry date. If both conditions are met — you automatically have the right to re-entry and no permit is needed."
+        },
+        "where": {
+          "ru": "Проверить онлайн на HiKorea или уточнить у сотрудника иммиграционного офиса.",
+          "en": "Check online at HiKorea or ask an immigration officer."
+        },
+        "onlineUrl": "https://www.hikorea.go.kr",
+        "tip": {
+          "ru": "Многие студенты не знают об этом — уточните свой статус перед тем как платить за разрешение.",
+          "en": "Many students are unaware of this — check your status before paying for a permit."
+        }
+      }
+    },
+    {
+      "id": "passport",
+      "label": {
+        "ru": "Заграничный паспорт",
+        "en": "Passport"
+      },
+      "detail": {
+        "how": {
+          "ru": "Паспорт уже есть у вас. Возьмите оригинал при подаче в иммиграционном офисе или в аэропорту.",
+          "en": "Your passport is already with you. Bring the original when applying at the immigration office or airport."
+        },
+        "where": {
+          "ru": "Уже есть у вас.",
+          "en": "Already with you."
+        }
+      }
+    },
+    {
+      "id": "arc",
+      "label": {
+        "ru": "Карта иностранца ARC",
+        "en": "Alien Registration Card (ARC)"
+      },
+      "detail": {
+        "how": {
+          "ru": "ARC уже есть у вас. Возьмите оригинал.",
+          "en": "Your ARC is already with you. Bring the original."
+        },
+        "where": {
+          "ru": "Уже есть у вас.",
+          "en": "Already with you."
+        }
+      }
+    },
+    {
+      "id": "fee-receipt",
+      "label": {
+        "ru": "Квитанция об оплате пошлины: однократный въезд — 30 000 ₩, многократный — 50 000 ₩",
+        "en": "Fee receipt: single re-entry — 30,000 KRW, multiple — 50,000 KRW"
+      },
+      "detail": {
+        "how": {
+          "ru": "Оплатить в банке или онлайн. Однократный въезд: 30 000 ₩, многократный (рекомендуется): 50 000 ₩.",
+          "en": "Pay at a bank or online. Single entry: 30,000 KRW, multiple (recommended): 50,000 KRW."
+        },
+        "where": {
+          "ru": "Ближайшее отделение 국민은행 или онлайн через HiKorea.",
+          "en": "Nearest 국민은행 (Kookmin Bank) or online via HiKorea."
+        },
+        "hours": {
+          "ru": "Банк: Пн–Пт 09:00–16:00. Онлайн — круглосуточно.",
+          "en": "Bank: Mon–Fri 09:00–16:00. Online — 24/7."
+        },
+        "hoursType": "bank",
+        "mapQuery": "국민은행",
+        "koreanPhrase": {
+          "ru": "재입국허가 수수료 납부하러 왔어요.\n(чэипкук хогга сусурё намбухарео вассэё)\n↳ Я пришёл оплатить сбор за разрешение на повторный въезд.",
+          "en": "재입국허가 수수료 납부하러 왔어요.\n(jaеipguk hoga susuryo nambuharyeo wasseoyo)\n↳ I came to pay the re-entry permit fee."
+        },
+        "onlineUrl": "https://www.hikorea.go.kr",
+        "tip": {
+          "ru": "Берите многократное (복수) — лишние 20 000 ₩ но въезжать можно сколько угодно раз в пределах срока визы.",
+          "en": "Get the multiple-entry permit (복수) — just 20,000 KRW more but you can enter as many times as needed within your visa validity."
+        }
+      }
+    }
+  ],
+  "when": {
+    "ru": "До выезда из Кореи. Можно оформить в иммиграционном офисе ИЛИ прямо на стойке вылета в аэропорту (но лучше заранее). Действует в пределах срока вашей визы.",
+    "en": "Before departing Korea. Can be obtained at the immigration office OR at the airport departure counter (better to do in advance). Valid within your visa period."
+  },
+  "fee": {
+    "ru": "Однократный: 30 000 ₩ · Многократный: 50 000 ₩",
+    "en": "Single: 30,000 KRW · Multiple: 50,000 KRW"
+  },
+  "whereUrl": "https://www.hikorea.go.kr",
+  "source": "HiKorea",
+  "lastUpdated": "2024-01-01"
+}

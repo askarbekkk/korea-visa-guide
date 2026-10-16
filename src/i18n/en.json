@@ -1,0 +1,135 @@
+{
+  "onboarding": {
+    "step1": {
+      "title": "Where are you from?",
+      "subtitle": "Select your country",
+      "ru": "Russia",
+      "kz": "Kazakhstan",
+      "uz": "Uzbekistan",
+      "kg": "Kyrgyzstan",
+      "other": "Other country"
+    },
+    "step2": {
+      "title": "Your visa status",
+      "subtitle": "Select your current status",
+      "d2": "D-2 · Student visa",
+      "d4": "D-4 · Language training",
+      "d10": "D-10 · Job seeking",
+      "e7": "E-7 · Skilled worker",
+      "f2": "F-2 · Resident",
+      "f4": "F-4 · Overseas Korean (고려인)",
+      "f5": "F-5 · Permanent resident",
+      "f6": "F-6 · Spouse of Korean national",
+      "g1": "G-1 · Refugee / Humanitarian",
+      "h2": "H-2 · Working holiday (고려인)",
+      "notArrived": "Not in Korea yet"
+    },
+    "step3": {
+      "title": "What do you need now?",
+      "subtitle": "You can skip this",
+      "extend": "Extend my visa",
+      "changeStatus": "Change visa status",
+      "registerArc": "Register ARC card",
+      "findJob": "Find a job",
+      "skip": "Skip"
+    },
+    "next": "Next",
+    "back": "Back",
+    "finish": "Get started"
+  },
+  "tabs": {
+    "guide": "Guide",
+    "bot": "Bot",
+    "korean": "Korean",
+    "transfers": "Transfers"
+  },
+  "locked": {
+    "title": "Coming soon",
+    "message": "This section will be available in the next update"
+  },
+  "dashboard": {
+    "greeting": "Welcome",
+    "visaCard": "Your visa",
+    "expiryLabel": "Valid until",
+    "addExpiry": "Add expiry date",
+    "changeDate": "Change date",
+    "datePlaceholder": "2025-12-31",
+    "save": "Save",
+    "cancel": "Cancel",
+    "daysLeft": "days until visa expires",
+    "expired": "⚠️ Visa has expired",
+    "checklistProgress": "Checklist progress",
+    "progressOf": "of",
+    "openChecklist": "Open checklist",
+    "noChecklistForVisa": "A checklist for your visa type is coming in the next update. Ask the bot for now.",
+    "askBot": "Ask the bot",
+    "noChecklist": "Choose a procedure in the Guide",
+    "changeProfile": "Change profile",
+    "procedures": "Available procedures"
+  },
+  "checklist": {
+    "documentsLabel": "Documents to collect",
+    "when": "When to apply",
+    "fee": "Fee",
+    "where": "Where to apply",
+    "openHikorea": "Apply via HiKorea",
+    "source": "Source",
+    "saveProgress": "Save progress?",
+    "createAccount": "Create an account to keep your progress",
+    "later": "Later"
+  },
+  "bot": {
+    "title": "Ask a question",
+    "placeholder": "e.g. How do I extend my D-2 visa?",
+    "hint1": "How do I extend my D-2?",
+    "hint2": "Can I work on a student visa?",
+    "hint3": "When do I need to register ARC?",
+    "hint4": "How much does extension cost?",
+    "noAnswer": "I'm not sure — check HiKorea or call 1345",
+    "callCenter": "Call 1345",
+    "openHikorea": "Open HiKorea",
+    "disclaimer": "This information is for reference only. Requirements may change. Always verify with HiKorea / 1345",
+    "source": "Source",
+    "sending": "Generating answer...",
+    "searching": "Searching HiKorea..."
+  },
+  "visaStatus": {
+    "D-2": "D-2 · Student visa",
+    "D-4": "D-4 · Language training",
+    "D-10": "D-10 · Job seeking",
+    "E-7": "E-7 · Skilled worker",
+    "F-2": "F-2 · Resident",
+    "F-4": "F-4 · Overseas Korean (고려인)",
+    "F-5": "F-5 · Permanent resident",
+    "F-6": "F-6 · Spouse of Korean national",
+    "G-1": "G-1 · Refugee / Humanitarian",
+    "H-2": "H-2 · Working holiday (고려인)",
+    "NOT_ARRIVED": "Not in Korea yet"
+  },
+  "citizenship": {
+    "RU": "Russia",
+    "KZ": "Kazakhstan",
+    "UZ": "Uzbekistan",
+    "KG": "Kyrgyzstan",
+    "OTHER": "Other country"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Try again",
+    "close": "Close"
+  },
+  "detail": {
+    "how": "How to get it",
+    "where": "Where to get it",
+    "hours": "Opening hours",
+    "phrase": "What to say in Korean",
+    "tip": "Tip",
+    "openOnline": "Apply / pay online",
+    "googleMaps": "Google Maps",
+    "naverMaps": "Naver Maps",
+    "open": "Open now",
+    "closed": "Closed now",
+    "lunch": "Lunch break"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "id": "address-change",
+  "visaStatus": "D-2",
+  "procedure": "ADDRESS_CHANGE",
+  "title": {
+    "ru": "Смена адреса проживания",
+    "en": "Change of Residence Address"
+  },
+  "documents": [
+    {
+      "id": "arc",
+      "label": {
+        "ru": "Карта иностранца ARC (оригинал)",
+        "en": "Alien Registration Card (ARC) — original"
+      },
+      "detail": {
+        "how": {
+          "ru": "ARC уже есть у вас. Возьмите оригинал — его сканируют или проверяют при подаче заявления.",
+          "en": "Your ARC is already with you. Bring the original — it is scanned or checked upon submission."
+        },
+        "where": {
+          "ru": "Уже есть у вас.",
+          "en": "Already with you."
+        }
+      }
+    },
+    {
+      "id": "lease",
+      "label": {
+        "ru": "Договор аренды жилья (임대차계약서) или подтверждение проживания от домовладельца / университета",
+        "en": "Lease agreement (임대차계약서) or residence confirmation from landlord/university"
+      },
+      "detail": {
+        "how": {
+          "ru": "Вариант 1: договор аренды (임대차 계약서) — попросите копию у хозяина квартиры. Вариант 2: если живёте в общежитии — справка о проживании от университета (거주확인서).",
+          "en": "Option 1: lease agreement (임대차 계약서) — get a copy from your landlord. Option 2: if you live in a dorm — residence confirmation from the university (거주확인서)."
+        },
+        "where": {
+          "ru": "У хозяина квартиры или в деканате университета (если общежитие).",
+          "en": "From your landlord or the university office (if you live in a dorm)."
+        },
+        "tip": {
+          "ru": "Если квартира снята через агентство — попросите агента предоставить копию договора с печатью.",
+          "en": "If the apartment was rented through an agency — ask the agent to provide a stamped copy of the lease."
+        }
+      }
+    },
+    {
+      "id": "application-form",
+      "label": {
+        "ru": "Форма уведомления о смене адреса (체류지 변경신고서) — есть онлайн на HiKorea и в 주민센터",
+        "en": "Address change notification form (체류지 변경신고서) — available online at HiKorea and at community centers"
+      },
+      "detail": {
+        "how": {
+          "ru": "Самый простой способ — подать онлайн через HiKorea (без похода в офис). Либо скачать форму с HiKorea и заполнить вручную перед визитом в 주민센터 (주민센터).",
+          "en": "The easiest way is to submit online via HiKorea (no office visit required). Or download the form from HiKorea and fill it out by hand before visiting the community center (주민센터)."
+        },
+        "where": {
+          "ru": "Онлайн на HiKorea или лично в 주민센터 (주민센터) по вашему новому адресу.",
+          "en": "Online at HiKorea or in person at the community center (주민센터) near your new address."
+        },
+        "hours": {
+          "ru": "주민센터: Пн–Пт 09:00–18:00, перерыв 12:00–13:00. Онлайн — круглосуточно.",
+          "en": "Community center (주민센터): Mon–Fri 09:00–18:00, lunch 12:00–13:00. Online — 24/7."
+        },
+        "hoursType": "immigration",
+        "mapQuery": "주민센터",
+        "koreanPhrase": {
+          "ru": "체류지 변경신고 하러 왔어요. 외국인이에요.\n(чхэрюджи пёнгёнсинго харео вассэё. вэгугиниэё)\n↳ Я пришёл уведомить о смене адреса проживания. Я иностранец.",
+          "en": "체류지 변경신고 하러 왔어요. 외국인이에요.\n(cheryuji byeongyeong-singo haryeo wasseoyo. oegugin-ieyo)\n↳ I came to report a change of residence address. I am a foreigner."
+        },
+        "onlineUrl": "https://www.hikorea.go.kr",
+        "tip": {
+          "ru": "Онлайн через HiKorea — самый быстрый способ. Понадобится I-PIN или вход через ваш банк.",
+          "en": "Online via HiKorea is the fastest way. You will need an I-PIN or login through your bank."
+        }
+      }
+    }
+  ],
+  "when": {
+    "ru": "В течение 14 дней с момента переезда. Подать онлайн на HiKorea или лично в 주민센터 (주민센터) по новому адресу. Несвоевременная смена может привести к штрафу.",
+    "en": "Within 14 days of moving. Submit online via HiKorea or in person at the local community center (주민센터) at your new address. Late reporting may result in a fine."
+  },
+  "fee": {
+    "ru": "Бесплатно (무료)",
+    "en": "Free (무료)"
+  },
+  "whereUrl": "https://www.hikorea.go.kr",
+  "source": "HiKorea",
+  "lastUpdated": "2024-01-01"
+}

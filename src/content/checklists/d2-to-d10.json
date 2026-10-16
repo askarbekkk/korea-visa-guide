@@ -1,0 +1,208 @@
+{
+  "id": "d2-to-d10",
+  "visaStatus": "D-2",
+  "procedure": "CHANGE_STATUS",
+  "title": {
+    "ru": "Смена статуса D-2 → D-10",
+    "en": "Status Change D-2 → D-10"
+  },
+  "documents": [
+    {
+      "id": "passport",
+      "label": {
+        "ru": "Заграничный паспорт (оригинал + копия)",
+        "en": "Passport (original + copy)"
+      },
+      "detail": {
+        "how": {
+          "ru": "Уже есть у вас. Убедитесь что срок действия не менее 6 месяцев. Сделайте копию страницы с фото.",
+          "en": "Already with you. Ensure validity of at least 6 months. Copy the photo page."
+        },
+        "where": {
+          "ru": "Уже есть у вас.",
+          "en": "Already with you."
+        }
+      }
+    },
+    {
+      "id": "arc",
+      "label": {
+        "ru": "Карта иностранца ARC",
+        "en": "Alien Registration Card (ARC)"
+      },
+      "detail": {
+        "how": {
+          "ru": "ARC уже есть у вас. Возьмите оригинал и сделайте копию.",
+          "en": "Your ARC is already with you. Bring the original and make a copy."
+        },
+        "where": {
+          "ru": "Уже есть у вас.",
+          "en": "Already with you."
+        }
+      }
+    },
+    {
+      "id": "diploma",
+      "label": {
+        "ru": "Диплом или справка о завершении обучения (졸업증명서 / 수료증명서)",
+        "en": "Diploma or certificate of completion (졸업증명서 / 수료증명서)"
+      },
+      "detail": {
+        "how": {
+          "ru": "Получить в деканате (교학처) вашего университета. Диплом или справку об окончании (졸업증명서) выдают после завершения всех процедур выпуска. Уточните сроки в деканате.",
+          "en": "Obtain from your university's academic office (교학처). The diploma or graduation certificate (졸업증명서) is issued after completing all graduation procedures. Ask the office about timing."
+        },
+        "where": {
+          "ru": "Деканат вашего университета (교학처 / 학사지원팀).",
+          "en": "Your university academic office (교학처 / 학사지원팀)."
+        },
+        "hours": {
+          "ru": "Пн–Пт: 09:00–18:00, перерыв 12:00–13:00.",
+          "en": "Mon–Fri: 09:00–18:00, lunch 12:00–13:00."
+        },
+        "hoursType": "school",
+        "koreanPhrase": {
+          "ru": "졸업증명서 한 부 주세요. 비자 변경 때문이에요.\n(чоропчынмёнсо хан бу чусэё. пиджа пёнгён ттэмуниэё)\n↳ Дайте справку об окончании обучения. Для смены визы.",
+          "en": "졸업증명서 한 부 주세요. 비자 변경 때문이에요.\n(joreopjeungmyeongseo han bu juseyo. bija byeongyeong ttaemun-ieyo)\n↳ Please give me a graduation certificate. It is for a visa change."
+        }
+      }
+    },
+    {
+      "id": "transcript",
+      "label": {
+        "ru": "Академическая справка / транскрипт (성적증명서)",
+        "en": "Academic transcript (성적증명서)"
+      },
+      "detail": {
+        "how": {
+          "ru": "Получить в деканате или студенческом портале. Справка о транскрипте (성적증명서) обычно выдаётся сразу.",
+          "en": "Obtain from the academic office or student portal. Transcript (성적증명서) is usually issued immediately."
+        },
+        "where": {
+          "ru": "Деканат вашего университета (교학처).",
+          "en": "Your university's academic office (교학처)."
+        },
+        "hoursType": "school",
+        "hours": {
+          "ru": "Пн–Пт: 09:00–18:00, перерыв 12:00–13:00.",
+          "en": "Mon–Fri: 09:00–18:00, lunch 12:00–13:00."
+        },
+        "koreanPhrase": {
+          "ru": "성적증명서 한 부 주세요.\n(сонджок чынмёнсо хан бу чусэё)\n↳ Дайте, пожалуйста, академическую справку.",
+          "en": "성적증명서 한 부 주세요.\n(seongjok jeungmyeongseo han bu juseyo)\n↳ Please give me one academic transcript."
+        }
+      }
+    },
+    {
+      "id": "bank-statement",
+      "label": {
+        "ru": "Выписка из банка — остаток не менее 10 000 000 ₩ (или справка о стипендии / спонсоре)",
+        "en": "Bank statement — balance min. 10,000,000 KRW (or scholarship/sponsor letter)"
+      },
+      "detail": {
+        "how": {
+          "ru": "Запросить выписку (잔액증명서) в вашем банке. Минимальный остаток: 10 000 000 ₩. Если такой суммы нет — письмо спонсора (родители) с переводом и выпиской с их счёта.",
+          "en": "Request a balance certificate (잔액증명서) from your bank. Minimum balance: 10,000,000 KRW. If insufficient — a sponsor letter (from parents) with translation and their bank statement."
+        },
+        "where": {
+          "ru": "Ваш банк (신한은행, 카카오뱅크 и др.).",
+          "en": "Your bank (Shinhan, KakaoBank, etc.)."
+        },
+        "hours": {
+          "ru": "Банк: Пн–Пт 09:00–16:00.",
+          "en": "Bank: Mon–Fri 09:00–16:00."
+        },
+        "hoursType": "bank",
+        "mapQuery": "은행 ATM",
+        "koreanPhrase": {
+          "ru": "잔액증명서 한 부 발급해 주세요.\n(чаняк чынмёнсо хан бу пальгыпхэ чусэё)\n↳ Пожалуйста, выдайте выписку об остатке на счёте.",
+          "en": "잔액증명서 한 부 발급해 주세요.\n(janaek jeungmyeongseo han bu balgeuphae juseyo)\n↳ Please issue one bank balance certificate."
+        }
+      }
+    },
+    {
+      "id": "application-form",
+      "label": {
+        "ru": "Интегрированная форма заявки (통합신청서) — скачать на HiKorea",
+        "en": "Integrated application form (통합신청서) — download from HiKorea"
+      },
+      "detail": {
+        "how": {
+          "ru": "Скачать с HiKorea или заполнить онлайн. Можно подать заявку полностью онлайн — без посещения иммиграционного офиса.",
+          "en": "Download from HiKorea or fill out online. You can submit the application entirely online — no immigration office visit needed."
+        },
+        "where": {
+          "ru": "Онлайн на HiKorea или в иммиграционном офисе.",
+          "en": "Online via HiKorea or at the immigration office."
+        },
+        "onlineUrl": "https://www.hikorea.go.kr"
+      }
+    },
+    {
+      "id": "photo",
+      "label": {
+        "ru": "Фотография 3×4 см (белый фон)",
+        "en": "3×4 cm photo (white background)"
+      },
+      "detail": {
+        "how": {
+          "ru": "Сфотографироваться в фотостудии. 3×4 см, цветное, белый фон, без очков.",
+          "en": "Get a photo at a studio. 3×4 cm, color, white background, no glasses."
+        },
+        "where": {
+          "ru": "Ближайшая фотостудия (사진관).",
+          "en": "Nearest photo studio (사진관)."
+        },
+        "hoursType": "photo",
+        "hours": {
+          "ru": "Обычно ежедневно 10:00–21:00.",
+          "en": "Usually daily 10:00–21:00."
+        },
+        "mapQuery": "여권사진 사진관",
+        "koreanPhrase": {
+          "ru": "비자 사진 한 장 주세요. 3×4 사이즈요.\n(пиджа саджин хан джан чусэё)\n↳ Одно фото для визы. Размер 3×4.",
+          "en": "비자 사진 한 장 주세요. 3×4 사이즈요.\n(bija sajin han jang juseyo. 3x4 sаizeuyo)\n↳ One visa photo please. Size 3×4."
+        }
+      }
+    },
+    {
+      "id": "fee-receipt",
+      "label": {
+        "ru": "Квитанция об оплате пошлины (130 000 ₩)",
+        "en": "Fee payment receipt (130,000 KRW)"
+      },
+      "detail": {
+        "how": {
+          "ru": "Оплатить в банке или онлайн через HiKorea. Сумма: 130 000 ₩.",
+          "en": "Pay at a bank or online via HiKorea. Amount: 130,000 KRW."
+        },
+        "where": {
+          "ru": "Ближайшее отделение 국민은행 или онлайн.",
+          "en": "Nearest 국민은행 (Kookmin Bank) or online."
+        },
+        "hoursType": "bank",
+        "hours": {
+          "ru": "Банк: Пн–Пт 09:00–16:00.",
+          "en": "Bank: Mon–Fri 09:00–16:00."
+        },
+        "mapQuery": "국민은행",
+        "koreanPhrase": {
+          "ru": "출입국 비자 수수료 납부하러 왔어요. 130,000원이요.\n(чхулипкук пиджа сусурё намбухарео вассэё)\n↳ Я пришёл оплатить иммиграционный сбор. 130 000 вон.",
+          "en": "출입국 비자 수수료 납부하러 왔어요. 130,000원이요.\n(chulipguk bija susuryo nambuharyeo wasseoyo)\n↳ I came to pay the immigration fee. 130,000 KRW."
+        },
+        "onlineUrl": "https://www.hikorea.go.kr"
+      }
+    }
+  ],
+  "when": {
+    "ru": "Подать до истечения визы D-2 после получения диплома. Можно подать онлайн или в иммиграционном офисе. D-10 даётся на 6 месяцев с возможностью продления до 2 лет.",
+    "en": "Apply before your D-2 visa expires after receiving your diploma. Can be submitted online or at the immigration office. D-10 is granted for 6 months, extendable up to 2 years."
+  },
+  "fee": {
+    "ru": "130 000 KRW",
+    "en": "130,000 KRW"
+  },
+  "whereUrl": "https://www.hikorea.go.kr",
+  "source": "HiKorea",
+  "lastUpdated": "2024-01-01"
+}

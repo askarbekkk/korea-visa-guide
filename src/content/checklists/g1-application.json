@@ -1,0 +1,249 @@
+{
+  "id": "g1-application",
+  "visaStatus": "G-1",
+  "procedure": "EXTEND",
+  "title": {
+    "ru": "Статус беженца (G-1)",
+    "en": "Refugee Status Application (G-1)"
+  },
+  "documents": [
+    {
+      "id": "passport",
+      "label": {
+        "ru": "Заграничный паспорт или иной документ, удостоверяющий личность",
+        "en": "Passport or other identity document"
+      },
+      "detail": {
+        "how": {
+          "ru": "Если у вас есть паспорт — возьмите оригинал. Если паспорта нет (беженцы часто не имеют документов) — это допустимо. Иммиграционный офис может принять другие документы, подтверждающие личность.",
+          "en": "If you have a passport — bring the original. If you don't have a passport (refugees often have no documents) — that is acceptable. The immigration office may accept other identity documents."
+        },
+        "where": {
+          "ru": "Уже есть у вас. При отсутствии паспорта — сообщите об этом в иммиграционном офисе.",
+          "en": "Already with you. If you have no passport — inform the immigration office about this."
+        }
+      }
+    },
+    {
+      "id": "application-form",
+      "label": {
+        "ru": "Заявление о признании беженцем (난민인정신청서) — форма доступна в иммиграционном офисе",
+        "en": "Refugee recognition application form (난민인정신청서) — available at the immigration office"
+      },
+      "detail": {
+        "how": {
+          "ru": "Получить бланк заявления в иммиграционном офисе (출입국외국인청) в отделе по делам беженцев. Заполнить вручную. Заявление подаётся ТОЛЬКО лично — не онлайн.",
+          "en": "Obtain the application form at the immigration office (출입국외국인청) in the refugee affairs department. Fill it out by hand. Applications MUST be submitted in person — not online."
+        },
+        "where": {
+          "ru": "Ближайший иммиграционный офис (출입국외국인청) — отдел по делам беженцев (난민 담당).",
+          "en": "Nearest immigration office (출입국외국인청) — refugee affairs section (난민 담당)."
+        },
+        "hours": {
+          "ru": "Пн–Пт: 09:00–18:00, перерыв 12:00–13:00. Суббота, воскресенье — закрыто.",
+          "en": "Mon–Fri: 09:00–18:00, lunch 12:00–13:00. Closed on weekends."
+        },
+        "hoursType": "immigration",
+        "mapQuery": "출입국외국인청",
+        "koreanPhrase": {
+          "ru": "난민 신청하러 왔어요. 신청서 양식 주세요.\n(нанмин синчхонхарео вассэё. синчхонсо янсик чусэё)\n↳ Я пришёл подать заявление на статус беженца. Дайте, пожалуйста, бланк заявления.",
+          "en": "난민 신청하러 왔어요. 신청서 양식 주세요.\n(nanmin sincheongharyeo wasseoyo. sincheongseo yangsik juseyo)\n↳ I came to apply for refugee status. Please give me the application form."
+        },
+        "tip": {
+          "ru": "Рекомендуем обратиться за помощью в организации по правам беженцев: UNHCR Korea (서울유엔난민기구) или Korea Refugee Rights Network (NANCEN). Они помогут с заполнением документов бесплатно.",
+          "en": "We recommend contacting refugee rights organizations: UNHCR Korea or Korea Refugee Rights Network (NANCEN). They can help with documentation free of charge."
+        }
+      }
+    },
+    {
+      "id": "photo",
+      "label": {
+        "ru": "Фотография 3×4 см (белый фон)",
+        "en": "3×4 cm photo (white background)"
+      },
+      "detail": {
+        "how": {
+          "ru": "Сфотографироваться в фотостудии. 3×4 см, цветное, белый фон, без очков.",
+          "en": "Get a photo at a studio. 3×4 cm, color, white background, no glasses."
+        },
+        "where": {
+          "ru": "Ближайшая фотостудия (사진관) рядом с иммиграционным офисом.",
+          "en": "Nearest photo studio (사진관) near the immigration office."
+        },
+        "hoursType": "photo",
+        "hours": {
+          "ru": "Обычно ежедневно 10:00–21:00.",
+          "en": "Usually daily 10:00–21:00."
+        },
+        "mapQuery": "여권사진 사진관",
+        "koreanPhrase": {
+          "ru": "비자 사진 한 장 주세요. 3×4 사이즈요.\n(пиджа саджин хан джан чусэё)\n↳ Одно фото для визы, размер 3×4.",
+          "en": "비자 사진 한 장 주세요. 3×4 사이즈요.\n(bija sajin han jang juseyo)\n↳ One visa photo please, size 3×4."
+        }
+      }
+    },
+    {
+      "id": "evidence",
+      "label": {
+        "ru": "Доказательства преследования: документы, свидетельства, подтверждения угроз (на корейском или с переводом)",
+        "en": "Evidence of persecution: documents, testimonies, proof of threats (in Korean or with translation)"
+      },
+      "detail": {
+        "how": {
+          "ru": "Соберите всё, что подтверждает факт преследования: письма с угрозами, вырезки из новостей, решения суда, полицейские протоколы, свидетельства очевидцев. Все документы на иностранном языке нужно перевести на корейский.",
+          "en": "Collect everything that proves persecution: threat letters, news clippings, court decisions, police reports, witness testimonies. All foreign-language documents must be translated into Korean."
+        },
+        "where": {
+          "ru": "Документы уже есть у вас или в архивах страны происхождения. Переводчик — у сертифицированного переводчика в Корее.",
+          "en": "Documents are already with you or in your country's archives. Translator — a certified translator in Korea."
+        },
+        "tip": {
+          "ru": "Организация NANCEN (나센) помогает беженцам с подготовкой документов и переводами — их помощь бесплатна. Тел: 02-712-0620.",
+          "en": "NANCEN organization helps refugees prepare documents and translations — their assistance is free. Tel: 02-712-0620."
+        }
+      }
+    },
+    {
+      "id": "statement",
+      "label": {
+        "ru": "Письменное заявление с подробным описанием причин ходатайства (на корейском или русском)",
+        "en": "Written statement detailing reasons for the application (in Korean or English)"
+      },
+      "detail": {
+        "how": {
+          "ru": "Написать подробное личное заявление: откуда вы, почему покинули страну, какие угрозы вам грозят, почему не можете вернуться. Чем подробнее — тем лучше. Можно на русском, но лучше перевести на корейский.",
+          "en": "Write a detailed personal statement: where you are from, why you left, what threats you face, why you cannot return. The more detailed — the better. Can be in your native language, but better to have it translated into Korean."
+        },
+        "where": {
+          "ru": "Пишется самостоятельно. Переводчик для корейского — у сертифицированного переводчика или через NANCEN.",
+          "en": "Written by yourself. Korean translation — from a certified translator or via NANCEN."
+        },
+        "tip": {
+          "ru": "Не бойтесь писать подробно. Чиновники оценивают достоверность рассказа — детали помогают.",
+          "en": "Don't be afraid to write in detail. Officials assess the credibility of your account — details help."
+        }
+      }
+    },
+    {
+      "id": "entry-docs",
+      "label": {
+        "ru": "Документы о въезде в Корею (штамп, авиабилет и т.д.)",
+        "en": "Entry documents (entry stamp, flight ticket, etc.)"
+      },
+      "detail": {
+        "how": {
+          "ru": "Это штамп о въезде в паспорте + авиабилет или посадочный талон. Если нет авиабилета — не страшно, штамп в паспорте достаточен.",
+          "en": "This is the entry stamp in your passport + flight ticket or boarding pass. If you don't have the ticket — that's okay, the entry stamp is sufficient."
+        },
+        "where": {
+          "ru": "Уже есть у вас (в паспорте или сохранённый билет).",
+          "en": "Already with you (entry stamp in passport or saved ticket)."
+        }
+      }
+    },
+    {
+      "id": "medical-tb",
+      "label": {
+        "ru": "Справка об отсутствии туберкулёза (결핵 검사) — флюорография / рентген грудной клетки",
+        "en": "Tuberculosis-free certificate (결핵 검사) — chest X-ray"
+      },
+      "detail": {
+        "how": {
+          "ru": "Пройти рентген грудной клетки (흉부 X선 검사) в районном центре здоровья (보건소) или в поликлинике. Справка выдаётся в тот же день. Берите на корейском языке.",
+          "en": "Get a chest X-ray (흉부 X선 검사) at the local health center (보건소) or a clinic. The certificate is issued the same day. Request it in Korean."
+        },
+        "where": {
+          "ru": "Районный центр здоровья (보건소) по вашему адресу — самый дешёвый вариант (около 5 000–10 000 ₩). Или любая поликлиника / больница.",
+          "en": "Local health center (보건소) at your address — the cheapest option (around 5,000–10,000 KRW). Or any clinic / hospital."
+        },
+        "hours": {
+          "ru": "보건소: Пн–Пт 09:00–18:00, перерыв 12:00–13:00. Суббота, воскресенье — закрыто.",
+          "en": "Health center (보건소): Mon–Fri 09:00–18:00, lunch 12:00–13:00. Closed weekends."
+        },
+        "hoursType": "immigration",
+        "mapQuery": "보건소",
+        "koreanPhrase": {
+          "ru": "결핵 검사 받으러 왔어요. 외국인 비자 신청용이에요.\n(кёльхэк кОмса бадырео вассэё. вэгугин пиджа синчхонёниэё)\n↳ Я пришёл сдать анализ на туберкулёз. Для визового заявления иностранца.",
+          "en": "결핵 검사 받으러 왔어요. 외국인 비자 신청용이에요.\n(gyeolhaek geomsa badeureо wasseoyo. oegugin bija sincheongyong-ieyo)\n↳ I came for a tuberculosis test. It is for a foreigner's visa application."
+        },
+        "tip": {
+          "ru": "В 보건소 (центре здоровья) обследование для иностранцев стоит значительно дешевле, чем в частной клинике. Возьмите с собой паспорт и ARC.",
+          "en": "At 보건소 (health center), examinations for foreigners cost significantly less than at private clinics. Bring your passport and ARC."
+        }
+      }
+    },
+    {
+      "id": "medical-syphilis",
+      "label": {
+        "ru": "Справка об отсутствии сифилиса (매독 검사) — анализ крови",
+        "en": "Syphilis-free certificate (매독 검사) — blood test"
+      },
+      "detail": {
+        "how": {
+          "ru": "Сдать анализ крови на сифилис (매독 혈액 검사) в том же центре здоровья (보건소) или поликлинике что и рентген. Обычно делают в один визит вместе с другими анализами. Результат — через 1–3 рабочих дня.",
+          "en": "Get a syphilis blood test (매독 혈액 검사) at the same health center (보건소) or clinic as the X-ray. Usually done in one visit together with other tests. Results in 1–3 business days."
+        },
+        "where": {
+          "ru": "Районный центр здоровья (보건소) — дешевле всего. Или любая поликлиника.",
+          "en": "Local health center (보건소) — cheapest option. Or any clinic."
+        },
+        "hours": {
+          "ru": "보건소: Пн–Пт 09:00–18:00, перерыв 12:00–13:00.",
+          "en": "Health center: Mon–Fri 09:00–18:00, lunch 12:00–13:00."
+        },
+        "hoursType": "immigration",
+        "mapQuery": "보건소",
+        "koreanPhrase": {
+          "ru": "매독 검사 받으러 왔어요. 외국인 비자 신청용이에요.\n(мэдок кОмса бадырео вассэё. вэгугин пиджа синчхонёниэё)\n↳ Я пришёл сдать анализ на сифилис. Для визового заявления иностранца.",
+          "en": "매독 검사 받으러 왔어요. 외국인 비자 신청용이에요.\n(maedok geomsa badeureо wasseoyo. oegugin bija sincheongyong-ieyo)\n↳ I came for a syphilis test. It is for a foreigner's visa application."
+        },
+        "tip": {
+          "ru": "Лучше сдавать рентген и анализ крови в один день в одном месте (보건소) — сэкономите время. Скажите на стойке что нужен полный медосмотр для иностранца (외국인 건강검진).",
+          "en": "Best to do the X-ray and blood test the same day at the same place (보건소) — saves time. Tell the front desk you need a full medical check for a foreigner (외국인 건강검진)."
+        }
+      }
+    },
+    {
+      "id": "medical-hiv",
+      "label": {
+        "ru": "Справка об отсутствии ВИЧ (에이즈 검사) — анализ крови (может потребоваться)",
+        "en": "HIV-free certificate (에이즈 검사) — blood test (may be required)"
+      },
+      "detail": {
+        "how": {
+          "ru": "Сдать анализ крови на ВИЧ (에이즈/HIV 혈액 검사). Иммиграционный офис может запросить эту справку дополнительно — уточните при подаче заявления на G-1. Сдаётся в том же 보건소.",
+          "en": "Get an HIV blood test (에이즈/HIV 혈액 검사). The immigration office may request this additionally — confirm when submitting the G-1 application. Done at the same 보건소."
+        },
+        "where": {
+          "ru": "Центр здоровья (보건소) — анализ на ВИЧ обычно бесплатен и анонимен.",
+          "en": "Health center (보건소) — HIV testing is usually free and anonymous."
+        },
+        "hours": {
+          "ru": "보건소: Пн–Пт 09:00–18:00, перерыв 12:00–13:00.",
+          "en": "Health center: Mon–Fri 09:00–18:00, lunch 12:00–13:00."
+        },
+        "hoursType": "immigration",
+        "mapQuery": "보건소",
+        "koreanPhrase": {
+          "ru": "에이즈 검사 받으러 왔어요. 외국인 비자 신청용이에요.\n(эиджы кОмса бадырео вассэё)\n↳ Я пришёл сдать анализ на ВИЧ. Для визового заявления.",
+          "en": "에이즈 검사 받으러 왔어요. 외국인 비자 신청용이에요.\n(eijeu geomsa badeureо wasseoyo)\n↳ I came for an HIV test. It is for a visa application."
+        },
+        "tip": {
+          "ru": "Скажите на стойке 보건소: «외국인 건강검진 받으러 왔어요» — они сами направят на все нужные анализы сразу.",
+          "en": "Tell the 보건소 front desk: «외국인 건강검진 받으러 왔어요» — they will direct you to all required tests at once."
+        }
+      }
+    }
+  ],
+  "when": {
+    "ru": "Как можно скорее после въезда в Корею — в идеале в течение первого года. Подать лично в иммиграционный офис (не онлайн). После подачи выдаётся удостоверение ходатайствующего (G-1-5). Рассмотрение занимает от 6 месяцев до нескольких лет.",
+    "en": "As soon as possible after entering Korea — ideally within the first year. Apply in person at the immigration office (not online). After filing, a G-1-5 asylum seeker certificate is issued. Processing takes 6 months to several years."
+  },
+  "fee": {
+    "ru": "Бесплатно (무료)",
+    "en": "Free (무료)"
+  },
+  "whereUrl": "https://www.hikorea.go.kr",
+  "source": "Korea Immigration Service",
+  "lastUpdated": "2024-01-01"
+}

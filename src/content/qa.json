@@ -1,0 +1,64 @@
+[
+  {
+    "id": "arc-registration-deadline",
+    "question": {
+      "ru": "Когда нужно зарегистрировать карту ARC?",
+      "en": "When do I need to register my ARC card?"
+    },
+    "answer": {
+      "ru": "Карту иностранца (ARC) нужно зарегистрировать в течение 90 дней с момента въезда в Корею. Просрочка грозит штрафом. Обратитесь в ближайший иммиграционный офис или подайте через HiKorea.",
+      "en": "You must register your Alien Registration Card (ARC) within 90 days of entering Korea. Late registration results in a fine. Visit the nearest immigration office or apply through HiKorea."
+    },
+    "sourceUrl": "https://www.hikorea.go.kr"
+  },
+  {
+    "id": "d2-extension-window",
+    "question": {
+      "ru": "За сколько дней до окончания визы D-2 нужно подать на продление?",
+      "en": "How early can I apply to extend my D-2 visa?"
+    },
+    "answer": {
+      "ru": "Заявку на продление визы D-2 можно подать за 4 месяца до даты истечения, но не позже самой даты. Рекомендуем подавать за 2–3 месяца, чтобы избежать задержек.",
+      "en": "You can apply to extend your D-2 visa up to 4 months before the expiry date, but no later than the expiry date itself. We recommend applying 2–3 months in advance to avoid delays."
+    },
+    "visaStatus": "D-2",
+    "sourceUrl": "https://www.hikorea.go.kr"
+  },
+  {
+    "id": "extension-fee",
+    "question": {
+      "ru": "Сколько стоит продление визы?",
+      "en": "How much does a visa extension cost?"
+    },
+    "answer": {
+      "ru": "Пошлина за продление визы составляет от 60 000 до 120 000 KRW в зависимости от категории визы. Уточняйте актуальную сумму на HiKorea, так как размер пошлины может меняться.",
+      "en": "The visa extension fee ranges from 60,000 to 120,000 KRW depending on the visa category. Always check the current fee on HiKorea as it may change."
+    },
+    "sourceUrl": "https://www.hikorea.go.kr"
+  },
+  {
+    "id": "d2-work-permission",
+    "question": {
+      "ru": "Можно ли работать на студенческой визе D-2?",
+      "en": "Can I work on a D-2 student visa?"
+    },
+    "answer": {
+      "ru": "Да, но с ограничениями. На визе D-2 можно работать не более 20 часов в неделю в учебный период. В период каникул ограничений по часам нет. Для работы нужно получить разрешение на подработку (Part-time Work Permit) в иммиграционном офисе.",
+      "en": "Yes, but with restrictions. On a D-2 visa you can work up to 20 hours per week during the academic term. During vacation periods there is no hour limit. You must obtain a Part-time Work Permit from the immigration office first."
+    },
+    "visaStatus": "D-2",
+    "sourceUrl": "https://www.hikorea.go.kr"
+  },
+  {
+    "id": "immigration-contact",
+    "question": {
+      "ru": "Как связаться с иммиграционной службой?",
+      "en": "How do I contact the immigration service?"
+    },
+    "answer": {
+      "ru": "Контакт-центр иммиграционной службы Кореи: 1345 (внутри страны, звонок бесплатный), +82-2-6908-1345 (из-за рубежа). Онлайн-заявки и запись на приём: hikorea.go.kr.",
+      "en": "Korea Immigration Contact Center: 1345 (within Korea, free call), +82-2-6908-1345 (from abroad). Online applications and appointment booking: hikorea.go.kr."
+    },
+    "sourceUrl": "https://www.hikorea.go.kr"
+  }
+]

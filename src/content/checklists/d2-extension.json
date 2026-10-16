@@ -1,0 +1,183 @@
+{
+  "id": "d2-extension",
+  "visaStatus": "D-2",
+  "procedure": "EXTEND",
+  "title": {
+    "ru": "Продление визы D-2",
+    "en": "D-2 Visa Extension"
+  },
+  "documents": [
+    {
+      "id": "passport",
+      "label": {
+        "ru": "Заграничный паспорт (оригинал + копия)",
+        "en": "Passport (original + copy)"
+      },
+      "detail": {
+        "how": {
+          "ru": "Паспорт уже есть у вас. Убедитесь, что срок действия не менее 6 месяцев от даты подачи. Сделайте 2–3 копии страниц с фото и действующей визой.",
+          "en": "You already have your passport. Ensure it is valid for at least 6 months from the date of application. Make 2–3 copies of the photo page and the current visa page."
+        },
+        "where": {
+          "ru": "Уже есть у вас. При необходимости продления паспорта — обратитесь в посольство вашей страны в Корее.",
+          "en": "Already with you. If your passport needs renewal, contact your country's embassy in Korea."
+        },
+        "tip": {
+          "ru": "Сделайте несколько ксерокопий заранее — иммиграционный офис может попросить копии прямо на месте, а ксерокс может быть занят очередью.",
+          "en": "Make a few photocopies in advance — the immigration office may ask for copies on the spot, and the copier may have a queue."
+        }
+      }
+    },
+    {
+      "id": "arc",
+      "label": {
+        "ru": "Карта иностранца ARC",
+        "en": "Alien Registration Card (ARC)"
+      },
+      "detail": {
+        "how": {
+          "ru": "Карта ARC уже есть у вас. Возьмите оригинал — он нужен при подаче. Также сделайте одну копию.",
+          "en": "Your ARC is already with you. Bring the original — it is required at submission. Also make one copy."
+        },
+        "where": {
+          "ru": "Уже есть у вас. Если карта утеряна или повреждена — сначала восстановите её в иммиграционном офисе (200 000 ₩).",
+          "en": "Already with you. If your card is lost or damaged — restore it at the immigration office first (200,000 KRW)."
+        },
+        "tip": {
+          "ru": "Держите ARC при себе всегда — по закону вы обязаны носить её постоянно.",
+          "en": "Always carry your ARC — by law you are required to have it on you at all times."
+        }
+      }
+    },
+    {
+      "id": "enrollment-cert",
+      "label": {
+        "ru": "Справка о зачислении из университета (재학증명서)",
+        "en": "Certificate of enrollment from university"
+      },
+      "detail": {
+        "how": {
+          "ru": "Обратитесь в деканат (교학처 / 학생처) лично или закажите через студенческий портал университета. Справка обычно готова сразу или на следующий рабочий день.",
+          "en": "Visit the academic affairs office (교학처 / 학생처) in person, or order through the university student portal. Usually issued immediately or the next business day."
+        },
+        "where": {
+          "ru": "Деканат / студенческий офис вашего университета (교학처 또는 학생처).",
+          "en": "Your university's academic affairs office (교학처 or 학생처)."
+        },
+        "hours": {
+          "ru": "Пн–Пт: 09:00–18:00, перерыв 12:00–13:00. Суббота и воскресенье — закрыто.",
+          "en": "Mon–Fri: 09:00–18:00, lunch break 12:00–13:00. Closed on weekends."
+        },
+        "hoursType": "school",
+        "koreanPhrase": {
+          "ru": "재학증명서 한 부 주세요.\n(чэхак чынмёнсо хан бу чусэё)\n↳ Пожалуйста, дайте мне одну справку о зачислении.",
+          "en": "재학증명서 한 부 주세요.\n(jaehak jeungmyeongseo han bu juseyo)\n↳ Please give me one enrollment certificate."
+        },
+        "tip": {
+          "ru": "Попросите справку на корейском языке — именно она нужна для иммиграционного офиса. Если требуется на английском, уточните заранее.",
+          "en": "Request the certificate in Korean — that is what the immigration office needs. If you need it in English, ask in advance."
+        }
+      }
+    },
+    {
+      "id": "transcript",
+      "label": {
+        "ru": "Академическая справка / транскрипт",
+        "en": "Academic transcript"
+      },
+      "detail": {
+        "how": {
+          "ru": "Получить в том же деканате (교학처) или через студенческий портал. Обычно выдаётся сразу.",
+          "en": "Obtain from the same academic affairs office (교학처) or via the student portal. Usually issued immediately."
+        },
+        "where": {
+          "ru": "Деканат вашего университета (교학처 / 학생처).",
+          "en": "Your university's academic affairs office (교학처 / 학생처)."
+        },
+        "hours": {
+          "ru": "Пн–Пт: 09:00–18:00, перерыв 12:00–13:00. Суббота, воскресенье — закрыто.",
+          "en": "Mon–Fri: 09:00–18:00, lunch 12:00–13:00. Closed weekends."
+        },
+        "hoursType": "school",
+        "koreanPhrase": {
+          "ru": "성적증명서 한 부 주세요.\n(сонджок чынмёнсо хан бу чусэё)\n↳ Пожалуйста, дайте мне одну академическую справку.",
+          "en": "성적증명서 한 부 주세요.\n(seongjok jeungmyeongseo han bu juseyo)\n↳ Please give me one academic transcript."
+        }
+      }
+    },
+    {
+      "id": "fee-receipt",
+      "label": {
+        "ru": "Квитанция об оплате пошлины",
+        "en": "Fee payment receipt"
+      },
+      "detail": {
+        "how": {
+          "ru": "Оплатить можно онлайн через HiKorea или в любом отделении банка: 국민은행 (Kookmin), 우리은행 (Woori), 신한은행 (Shinhan). В банке назовите тип платежа: 출입국 수수료 (иммиграционный сбор) и сумму.",
+          "en": "Pay online via HiKorea or at any branch of these banks: 국민은행 (Kookmin), 우리은행 (Woori), 신한은행 (Shinhan). At the bank, mention the payment type: 출입국 수수료 (immigration fee) and the amount."
+        },
+        "where": {
+          "ru": "Ближайшее отделение 국민은행 (Kookmin Bank) или другого банка. Также доступна оплата онлайн.",
+          "en": "Nearest 국민은행 (Kookmin Bank) branch or any other major bank. Online payment also available."
+        },
+        "hours": {
+          "ru": "Пн–Пт: 09:00–16:00. Суббота, воскресенье — закрыто.",
+          "en": "Mon–Fri: 09:00–16:00. Closed on weekends."
+        },
+        "hoursType": "bank",
+        "mapQuery": "국민은행",
+        "koreanPhrase": {
+          "ru": "출입국 비자 수수료 납부하러 왔어요.\n(чхулипкук пиджа сусурё намбухарео вассэё)\n↳ Я пришёл оплатить визовый иммиграционный сбор.",
+          "en": "출입국 비자 수수료 납부하러 왔어요.\n(chulipguk bija susuryo nambuharyeo wasseoyo)\n↳ I came to pay the immigration visa fee."
+        },
+        "onlineUrl": "https://www.hikorea.go.kr",
+        "tip": {
+          "ru": "Онлайн-оплата через HiKorea — самый быстрый вариант. Квитанцию распечатайте или сохраните PDF на телефоне.",
+          "en": "Paying online via HiKorea is the fastest option. Print the receipt or save the PDF to your phone."
+        }
+      }
+    },
+    {
+      "id": "photo",
+      "label": {
+        "ru": "Фотография 3×4 см (белый фон)",
+        "en": "3×4 cm photo (white background)"
+      },
+      "detail": {
+        "how": {
+          "ru": "Сфотографироваться в любой фотостудии. Требования: размер 3×4 см, цветное фото, белый фон, без очков, сделано не более 6 месяцев назад. Скажите фотографу: «비자 사진» (фото для визы).",
+          "en": "Get a photo at any photo studio. Requirements: 3×4 cm, color photo, white background, no glasses, taken within the last 6 months. Tell the photographer: 비자 사진 (visa photo)."
+        },
+        "where": {
+          "ru": "Любая фотостудия (사진관). Много студий находится рядом с иммиграционными офисами и торговыми центрами.",
+          "en": "Any photo studio (사진관). Many are located near immigration offices and shopping malls."
+        },
+        "hours": {
+          "ru": "Обычно ежедневно 10:00–21:00 (зависит от студии).",
+          "en": "Usually daily 10:00–21:00 (varies by studio)."
+        },
+        "hoursType": "photo",
+        "mapQuery": "여권사진 사진관",
+        "koreanPhrase": {
+          "ru": "비자 사진 찍으러 왔어요. 3×4 사이즈로 한 장 주세요.\n(пиджа саджин ччикырео вассэё. сам гэй са сайджыро хан джан чусэё)\n↳ Я пришёл сфотографироваться для визы. Размер 3×4, одна штука.",
+          "en": "비자 사진 찍으러 왔어요. 3×4 사이즈로 한 장 주세요.\n(bija sajin jjikeureо wasseoyo. 3x4 saizeu-ro han jang juseyo)\n↳ I came to take a visa photo. Size 3×4, one piece please."
+        },
+        "tip": {
+          "ru": "Оденьтесь в тёмную однотонную одежду — так фото выйдет чётче на белом фоне. Студии рядом с иммиграционным офисом знают точные требования.",
+          "en": "Wear dark, solid-color clothing — the photo will look cleaner against the white background. Studios near immigration offices know the exact requirements."
+        }
+      }
+    }
+  ],
+  "when": {
+    "ru": "За 4 месяца до окончания визы, но не позже даты истечения. Рекомендуем за 2–3 месяца.",
+    "en": "Up to 4 months before expiry, but no later than the expiry date. We recommend 2–3 months in advance."
+  },
+  "fee": {
+    "ru": "60 000 — 120 000 KRW (уточнить на HiKorea)",
+    "en": "60,000 — 120,000 KRW (verify on HiKorea)"
+  },
+  "whereUrl": "https://www.hikorea.go.kr",
+  "source": "HiKorea",
+  "lastUpdated": "2024-01-01"
+}

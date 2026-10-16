@@ -1,0 +1,162 @@
+{
+  "id": "arc-registration",
+  "visaStatus": "NOT_ARRIVED",
+  "procedure": "REGISTER_ARC",
+  "title": {
+    "ru": "Регистрация карты иностранца (ARC)",
+    "en": "Alien Registration Card (ARC) Registration"
+  },
+  "documents": [
+    {
+      "id": "passport",
+      "label": {
+        "ru": "Заграничный паспорт (оригинал + копия)",
+        "en": "Passport (original + copy)"
+      },
+      "detail": {
+        "how": {
+          "ru": "Паспорт уже есть у вас. Сделайте 2–3 копии страницы с фото и страницы с действующей визой.",
+          "en": "You already have your passport. Make 2–3 copies of the photo page and the page with your current visa."
+        },
+        "where": {
+          "ru": "Уже есть у вас.",
+          "en": "Already with you."
+        },
+        "tip": {
+          "ru": "Рядом с иммиграционным офисом почти всегда есть ксерокс — но очередь. Сделайте копии заранее.",
+          "en": "There is usually a copier near the immigration office — but there is a queue. Make copies in advance."
+        }
+      }
+    },
+    {
+      "id": "visa",
+      "label": {
+        "ru": "Действующая долгосрочная виза (свыше 90 дней)",
+        "en": "Valid long-term visa (over 90 days)"
+      },
+      "detail": {
+        "how": {
+          "ru": "Виза уже есть у вас — она стоит в паспорте или выдана в электронном виде. ARC оформляется только если виза выдана на срок более 90 дней.",
+          "en": "Your visa is already in your passport or issued electronically. ARC is issued only for visas valid for more than 90 days."
+        },
+        "where": {
+          "ru": "Уже есть у вас (в паспорте).",
+          "en": "Already with you (in your passport)."
+        }
+      }
+    },
+    {
+      "id": "photo",
+      "label": {
+        "ru": "Фотография 3×4 см (белый фон, не старше 6 месяцев)",
+        "en": "3×4 cm photo (white background, taken within 6 months)"
+      },
+      "detail": {
+        "how": {
+          "ru": "Сфотографироваться в любой фотостудии. Требования: 3×4 см, цветное фото, белый фон, без очков. Скажите «비자 사진».",
+          "en": "Get a photo at any photo studio. Requirements: 3×4 cm, color, white background, no glasses. Say 비자 사진."
+        },
+        "where": {
+          "ru": "Ближайшая фотостудия (사진관). Многие студии находятся рядом с иммиграционными офисами.",
+          "en": "Nearest photo studio (사진관). Many studios are located near immigration offices."
+        },
+        "hours": {
+          "ru": "Обычно ежедневно 10:00–21:00.",
+          "en": "Usually daily 10:00–21:00."
+        },
+        "hoursType": "photo",
+        "mapQuery": "여권사진 사진관",
+        "koreanPhrase": {
+          "ru": "비자 사진 찍으러 왔어요. 3×4 사이즈로 한 장 주세요.\n(пиджа саджин ччикырео вассэё)\n↳ Я пришёл сфотографироваться для визы, размер 3×4.",
+          "en": "비자 사진 찍으러 왔어요. 3×4 사이즈로 한 장 주세요.\n(bija sajin jjikeureо wasseoyo)\n↳ I came to take a visa photo, size 3×4."
+        }
+      }
+    },
+    {
+      "id": "residence-proof",
+      "label": {
+        "ru": "Подтверждение адреса: договор аренды или справка от университета / работодателя",
+        "en": "Proof of address: lease agreement or letter from university/employer"
+      },
+      "detail": {
+        "how": {
+          "ru": "Вариант 1: договор аренды жилья (임대차 계약서) — получить у хозяина квартиры. Вариант 2: справка о месте проживания от университета (기숙사 입사확인서) если живёте в общежитии. Вариант 3: справка от работодателя.",
+          "en": "Option 1: lease agreement (임대차 계약서) — obtain from your landlord. Option 2: dormitory confirmation letter from the university if you live in a dorm. Option 3: letter from employer."
+        },
+        "where": {
+          "ru": "У хозяина жилья, в деканате университета или у работодателя.",
+          "en": "From your landlord, university office, or employer."
+        },
+        "tip": {
+          "ru": "Если живёте в общежитии, университет обычно выдаёт справку сразу в том же офисе, где вы регистрировались при заселении.",
+          "en": "If you live in a dormitory, the university usually issues the letter from the same office where you registered upon move-in."
+        }
+      }
+    },
+    {
+      "id": "enrollment-or-employment",
+      "label": {
+        "ru": "Справка о зачислении / трудовой договор (если применимо)",
+        "en": "Certificate of enrollment or employment contract (if applicable)"
+      },
+      "detail": {
+        "how": {
+          "ru": "Если виза D-2 или D-4 — нужна справка о зачислении (재학증명서) из деканата. Если рабочая виза — нужен трудовой договор.",
+          "en": "For D-2 or D-4 visa — enrollment certificate (재학증명서) from the academic office. For work visa — employment contract."
+        },
+        "where": {
+          "ru": "Деканат вашего университета (교학처 / 학생처).",
+          "en": "Your university's academic affairs office (교학처 / 학생처)."
+        },
+        "hours": {
+          "ru": "Пн–Пт: 09:00–18:00, перерыв 12:00–13:00.",
+          "en": "Mon–Fri: 09:00–18:00, lunch 12:00–13:00."
+        },
+        "hoursType": "school",
+        "koreanPhrase": {
+          "ru": "재학증명서 한 부 주세요.\n(чэхак чынмёнсо хан бу чусэё)\n↳ Пожалуйста, дайте одну справку о зачислении.",
+          "en": "재학증명서 한 부 주세요.\n(jaehak jeungmyeongseo han bu juseyo)\n↳ Please give me one enrollment certificate."
+        }
+      }
+    },
+    {
+      "id": "fee-receipt",
+      "label": {
+        "ru": "Квитанция об оплате пошлины (30 000 ₩)",
+        "en": "Fee payment receipt (30,000 KRW)"
+      },
+      "detail": {
+        "how": {
+          "ru": "Оплатить онлайн через HiKorea или в банке. Сумма: 30 000 ₩. В банке: 국민은행 (Kookmin), 우리은행 (Woori), 신한은행 (Shinhan).",
+          "en": "Pay online via HiKorea or at a bank. Amount: 30,000 KRW. Banks: 국민은행 (Kookmin), 우리은행 (Woori), 신한은행 (Shinhan)."
+        },
+        "where": {
+          "ru": "Ближайшее отделение 국민은행 или онлайн через HiKorea.",
+          "en": "Nearest 국민은행 (Kookmin Bank) or online via HiKorea."
+        },
+        "hours": {
+          "ru": "Банк: Пн–Пт 09:00–16:00. Онлайн — круглосуточно.",
+          "en": "Bank: Mon–Fri 09:00–16:00. Online — 24/7."
+        },
+        "hoursType": "bank",
+        "mapQuery": "국민은행",
+        "koreanPhrase": {
+          "ru": "외국인등록 수수료 납부하러 왔어요.\n(вэгугин тынноk сусурё намбухарео вассэё)\n↳ Я пришёл оплатить сбор за регистрацию иностранца.",
+          "en": "외국인등록 수수료 납부하러 왔어요.\n(oegukin deungnok susuryo nambuharyeo wasseoyo)\n↳ I came to pay the alien registration fee."
+        },
+        "onlineUrl": "https://www.hikorea.go.kr"
+      }
+    }
+  ],
+  "when": {
+    "ru": "В течение 90 дней с момента въезда в Корею. Не откладывайте — просрочка грозит штрафом до 1 000 000 ₩.",
+    "en": "Within 90 days of entering Korea. Don't delay — late registration incurs a fine of up to 1,000,000 KRW."
+  },
+  "fee": {
+    "ru": "30 000 KRW (уточнить на HiKorea)",
+    "en": "30,000 KRW (verify on HiKorea)"
+  },
+  "whereUrl": "https://www.hikorea.go.kr",
+  "source": "HiKorea",
+  "lastUpdated": "2024-01-01"
+}
