@@ -17,11 +17,8 @@ import {
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useTranslation } from 'react-i18next';
-import { getLLMProvider } from '../llm';
-import { buildSearchPrompt, buildFallbackPrompt } from '../llm/systemPrompt';
-import { searchImmigrationInfo, formatSearchResults } from '../llm/TavilySearch';
+import { runAgent } from '../agent/agent';
 import { getProfile } from '../storage/profile';
-import { LLMMessage } from '../llm/LLMProvider';
 import { UserProfile } from '../types';
 
 interface ChatMessage {
@@ -69,45 +66,20 @@ export default function BotScreen() {
     setInputText('');
 
     const language = i18n.language as 'ru' | 'en';
-    const provider = getLLMProvider();
 
     try {
-      // ── Шаг 1: Ищем по официальным сайтам через Tavily ──
-      setSearchStatus('searching');
-      let systemPrompt: string;
-      let sources: Array<{ title: string; url: string }> = [];
-
-      try {
-        const results = await searchImmigrationInfo(trimmed);
-        sources = results.map((r) => ({ title: r.title, url: r.url }));
-        const formattedResults = formatSearchResults(results);
-        systemPrompt = buildSearchPrompt(profile, language, formattedResults);
-      } catch {
-        // Tavily недоступен — переходим в резервный режим
-        systemPrompt = buildFallbackPrompt(profile, language);
-      }
-
-      // ── Шаг 2: DeepSeek генерирует ответ на основе найденного ──
+      // The agent picks its own tools: app guides, official-site search, deadline calculator, exchange rates.
       setSearchStatus('generating');
-
-      // История чата для контекста (последние 6 сообщений чтобы не раздувать запрос)
-      const recentHistory = messages.slice(-6).map((m): LLMMessage => ({
-        role: m.role,
-        content: m.content,
-      }));
-
-      const apiMessages: LLMMessage[] = [
-        { role: 'system', content: systemPrompt },
-        ...recentHistory,
-        { role: 'user', content: trimmed },
-      ];
-
-      const reply = await provider.chat(apiMessages);
+      const { answer, sources } = await runAgent(trimmed, {
+        profile,
+        language,
+        history: messages.map((m) => ({ role: m.role, content: m.content })),
+      });
 
       const assistantMessage: ChatMessage = {
         id: (Date.now() + 1).toString(),
         role: 'assistant',
-        content: reply,
+        content: answer || t('bot.noAnswer'),
         sources,
       };
       setMessages((prev) => [...prev, assistantMessage]);
